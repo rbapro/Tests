@@ -1,0 +1,10 @@
+project:
+  file: ./PimpMyEvent.xcodeproj 
+  target:
+    name: PimpMyEvent
+templates:
+    - ./SourceryTemplates
+output:
+  ./PimpMyEventTests/Generated
+args:
+  module: PimpMyEvent

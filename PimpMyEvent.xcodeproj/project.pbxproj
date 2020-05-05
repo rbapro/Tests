@@ -1,0 +1,739 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F53F81718D5898EAA672345 /* Pods_PimpMyEvent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E30FBE8A7B2B5056EFE7A8C /* Pods_PimpMyEvent.framework */; };
+		CE1AADB8BDC79F8A003CDE45 /* Pods_PimpMyEvent_PimpMyEventUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1832589D91CA37FD2EA3DB1E /* Pods_PimpMyEvent_PimpMyEventUITests.framework */; };
+		EE3E2D23F3B67AF0F4BA1DCA /* Pods_PimpMyEventTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5A495C5951F83B37ED05234 /* Pods_PimpMyEventTests.framework */; };
+		FF100D8B2461F482002A5D51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF100D8A2461F482002A5D51 /* AppDelegate.swift */; };
+		FF100D8D2461F482002A5D51 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF100D8C2461F482002A5D51 /* SceneDelegate.swift */; };
+		FF100D8F2461F482002A5D51 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF100D8E2461F482002A5D51 /* ViewController.swift */; };
+		FF100D922461F482002A5D51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF100D902461F482002A5D51 /* Main.storyboard */; };
+		FF100D942461F485002A5D51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF100D932461F485002A5D51 /* Assets.xcassets */; };
+		FF100D972461F485002A5D51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF100D952461F485002A5D51 /* LaunchScreen.storyboard */; };
+		FF100DAD2461F485002A5D51 /* PimpMyEventUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF100DAC2461F485002A5D51 /* PimpMyEventUITests.swift */; };
+		FF100DC32462C672002A5D51 /* AutoMockable.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF100DC22462C672002A5D51 /* AutoMockable.generated.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF100D9E2461F485002A5D51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF100D7F2461F482002A5D51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF100D862461F482002A5D51;
+			remoteInfo = PimpMyEvent;
+		};
+		FF100DA92461F485002A5D51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF100D7F2461F482002A5D51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF100D862461F482002A5D51;
+			remoteInfo = PimpMyEvent;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08774C767677EA0519918E8F /* Pods-PimpMyEvent-PimpMyEventUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PimpMyEvent-PimpMyEventUITests.debug.xcconfig"; path = "Target Support Files/Pods-PimpMyEvent-PimpMyEventUITests/Pods-PimpMyEvent-PimpMyEventUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1832589D91CA37FD2EA3DB1E /* Pods_PimpMyEvent_PimpMyEventUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PimpMyEvent_PimpMyEventUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E30FBE8A7B2B5056EFE7A8C /* Pods_PimpMyEvent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PimpMyEvent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EF9B2DA29F4EE2CAF13E2B5 /* Pods-PimpMyEvent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PimpMyEvent.release.xcconfig"; path = "Target Support Files/Pods-PimpMyEvent/Pods-PimpMyEvent.release.xcconfig"; sourceTree = "<group>"; };
+		7362728D66E8976539638BBB /* Pods-PimpMyEvent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PimpMyEvent.debug.xcconfig"; path = "Target Support Files/Pods-PimpMyEvent/Pods-PimpMyEvent.debug.xcconfig"; sourceTree = "<group>"; };
+		9772610165833AC0F5FDE61D /* Pods-PimpMyEvent-PimpMyEventUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PimpMyEvent-PimpMyEventUITests.release.xcconfig"; path = "Target Support Files/Pods-PimpMyEvent-PimpMyEventUITests/Pods-PimpMyEvent-PimpMyEventUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B5A495C5951F83B37ED05234 /* Pods_PimpMyEventTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PimpMyEventTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B670CE316AC8318CB55BF0DE /* Pods-PimpMyEventTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PimpMyEventTests.debug.xcconfig"; path = "Target Support Files/Pods-PimpMyEventTests/Pods-PimpMyEventTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DB93518B205700836C9FCF14 /* Pods-PimpMyEventTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PimpMyEventTests.release.xcconfig"; path = "Target Support Files/Pods-PimpMyEventTests/Pods-PimpMyEventTests.release.xcconfig"; sourceTree = "<group>"; };
+		FF100D872461F482002A5D51 /* PimpMyEvent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PimpMyEvent.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF100D8A2461F482002A5D51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF100D8C2461F482002A5D51 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FF100D8E2461F482002A5D51 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF100D912461F482002A5D51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF100D932461F485002A5D51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF100D962461F485002A5D51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF100D982461F485002A5D51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF100D9D2461F485002A5D51 /* PimpMyEventTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PimpMyEventTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF100DA32461F485002A5D51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF100DA82461F485002A5D51 /* PimpMyEventUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PimpMyEventUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF100DAC2461F485002A5D51 /* PimpMyEventUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PimpMyEventUITests.swift; sourceTree = "<group>"; };
+		FF100DAE2461F485002A5D51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF100DC22462C672002A5D51 /* AutoMockable.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoMockable.generated.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF100D842461F482002A5D51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F53F81718D5898EAA672345 /* Pods_PimpMyEvent.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF100D9A2461F485002A5D51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE3E2D23F3B67AF0F4BA1DCA /* Pods_PimpMyEventTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF100DA52461F485002A5D51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE1AADB8BDC79F8A003CDE45 /* Pods_PimpMyEvent_PimpMyEventUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23CB28767BD58B913821F652 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E30FBE8A7B2B5056EFE7A8C /* Pods_PimpMyEvent.framework */,
+				1832589D91CA37FD2EA3DB1E /* Pods_PimpMyEvent_PimpMyEventUITests.framework */,
+				B5A495C5951F83B37ED05234 /* Pods_PimpMyEventTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9806048D3EFF302A2331622D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7362728D66E8976539638BBB /* Pods-PimpMyEvent.debug.xcconfig */,
+				5EF9B2DA29F4EE2CAF13E2B5 /* Pods-PimpMyEvent.release.xcconfig */,
+				08774C767677EA0519918E8F /* Pods-PimpMyEvent-PimpMyEventUITests.debug.xcconfig */,
+				9772610165833AC0F5FDE61D /* Pods-PimpMyEvent-PimpMyEventUITests.release.xcconfig */,
+				B670CE316AC8318CB55BF0DE /* Pods-PimpMyEventTests.debug.xcconfig */,
+				DB93518B205700836C9FCF14 /* Pods-PimpMyEventTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FF100D7E2461F482002A5D51 = {
+			isa = PBXGroup;
+			children = (
+				FF100D892461F482002A5D51 /* PimpMyEvent */,
+				FF100DA02461F485002A5D51 /* PimpMyEventTests */,
+				FF100DAB2461F485002A5D51 /* PimpMyEventUITests */,
+				FF100D882461F482002A5D51 /* Products */,
+				9806048D3EFF302A2331622D /* Pods */,
+				23CB28767BD58B913821F652 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FF100D882461F482002A5D51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF100D872461F482002A5D51 /* PimpMyEvent.app */,
+				FF100D9D2461F485002A5D51 /* PimpMyEventTests.xctest */,
+				FF100DA82461F485002A5D51 /* PimpMyEventUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF100D892461F482002A5D51 /* PimpMyEvent */ = {
+			isa = PBXGroup;
+			children = (
+				FF100D8A2461F482002A5D51 /* AppDelegate.swift */,
+				FF100D8C2461F482002A5D51 /* SceneDelegate.swift */,
+				FF100D8E2461F482002A5D51 /* ViewController.swift */,
+				FF100D902461F482002A5D51 /* Main.storyboard */,
+				FF100D932461F485002A5D51 /* Assets.xcassets */,
+				FF100D952461F485002A5D51 /* LaunchScreen.storyboard */,
+				FF100D982461F485002A5D51 /* Info.plist */,
+			);
+			path = PimpMyEvent;
+			sourceTree = "<group>";
+		};
+		FF100DA02461F485002A5D51 /* PimpMyEventTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF100DBF2462142A002A5D51 /* Generated */,
+				FF100DA32461F485002A5D51 /* Info.plist */,
+			);
+			path = PimpMyEventTests;
+			sourceTree = "<group>";
+		};
+		FF100DAB2461F485002A5D51 /* PimpMyEventUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF100DAC2461F485002A5D51 /* PimpMyEventUITests.swift */,
+				FF100DAE2461F485002A5D51 /* Info.plist */,
+			);
+			path = PimpMyEventUITests;
+			sourceTree = "<group>";
+		};
+		FF100DBF2462142A002A5D51 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				FF100DC22462C672002A5D51 /* AutoMockable.generated.swift */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF100D862461F482002A5D51 /* PimpMyEvent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF100DB12461F485002A5D51 /* Build configuration list for PBXNativeTarget "PimpMyEvent" */;
+			buildPhases = (
+				5601494F2FC1C07D3C8F2ED4 /* [CP] Check Pods Manifest.lock */,
+				FF100D832461F482002A5D51 /* Sources */,
+				FF100D842461F482002A5D51 /* Frameworks */,
+				FF100D852461F482002A5D51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PimpMyEvent;
+			productName = PimpMyEvent;
+			productReference = FF100D872461F482002A5D51 /* PimpMyEvent.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF100D9C2461F485002A5D51 /* PimpMyEventTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF100DB42461F485002A5D51 /* Build configuration list for PBXNativeTarget "PimpMyEventTests" */;
+			buildPhases = (
+				0DCD83C80E93AD8918F4409C /* [CP] Check Pods Manifest.lock */,
+				FF100DBC24620C74002A5D51 /* ShellScript */,
+				FF100D992461F485002A5D51 /* Sources */,
+				FF100D9A2461F485002A5D51 /* Frameworks */,
+				FF100D9B2461F485002A5D51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF100D9F2461F485002A5D51 /* PBXTargetDependency */,
+			);
+			name = PimpMyEventTests;
+			productName = PimpMyEventTests;
+			productReference = FF100D9D2461F485002A5D51 /* PimpMyEventTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF100DA72461F485002A5D51 /* PimpMyEventUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF100DB72461F485002A5D51 /* Build configuration list for PBXNativeTarget "PimpMyEventUITests" */;
+			buildPhases = (
+				0D7E60349CF72502CFA92726 /* [CP] Check Pods Manifest.lock */,
+				FF100DA42461F485002A5D51 /* Sources */,
+				FF100DA52461F485002A5D51 /* Frameworks */,
+				FF100DA62461F485002A5D51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF100DAA2461F485002A5D51 /* PBXTargetDependency */,
+			);
+			name = PimpMyEventUITests;
+			productName = PimpMyEventUITests;
+			productReference = FF100DA82461F485002A5D51 /* PimpMyEventUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF100D7F2461F482002A5D51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Event By Me";
+				TargetAttributes = {
+					FF100D862461F482002A5D51 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					FF100D9C2461F485002A5D51 = {
+						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
+						TestTargetID = FF100D862461F482002A5D51;
+					};
+					FF100DA72461F485002A5D51 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = FF100D862461F482002A5D51;
+					};
+				};
+			};
+			buildConfigurationList = FF100D822461F482002A5D51 /* Build configuration list for PBXProject "PimpMyEvent" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF100D7E2461F482002A5D51;
+			productRefGroup = FF100D882461F482002A5D51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF100D862461F482002A5D51 /* PimpMyEvent */,
+				FF100D9C2461F485002A5D51 /* PimpMyEventTests */,
+				FF100DA72461F485002A5D51 /* PimpMyEventUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF100D852461F482002A5D51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF100D972461F485002A5D51 /* LaunchScreen.storyboard in Resources */,
+				FF100D942461F485002A5D51 /* Assets.xcassets in Resources */,
+				FF100D922461F482002A5D51 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF100D9B2461F485002A5D51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF100DA62461F485002A5D51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D7E60349CF72502CFA92726 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PimpMyEvent-PimpMyEventUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0DCD83C80E93AD8918F4409C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PimpMyEventTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5601494F2FC1C07D3C8F2ED4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PimpMyEvent-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF100DBC24620C74002A5D51 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/Sourcery/bin/sourcery\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF100D832461F482002A5D51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF100D8F2461F482002A5D51 /* ViewController.swift in Sources */,
+				FF100D8B2461F482002A5D51 /* AppDelegate.swift in Sources */,
+				FF100D8D2461F482002A5D51 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF100D992461F485002A5D51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF100DC32462C672002A5D51 /* AutoMockable.generated.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF100DA42461F485002A5D51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF100DAD2461F485002A5D51 /* PimpMyEventUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF100D9F2461F485002A5D51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF100D862461F482002A5D51 /* PimpMyEvent */;
+			targetProxy = FF100D9E2461F485002A5D51 /* PBXContainerItemProxy */;
+		};
+		FF100DAA2461F485002A5D51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF100D862461F482002A5D51 /* PimpMyEvent */;
+			targetProxy = FF100DA92461F485002A5D51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF100D902461F482002A5D51 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF100D912461F482002A5D51 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF100D952461F485002A5D51 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF100D962461F485002A5D51 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF100DAF2461F485002A5D51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PODS_ROOT = "";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF100DB02461F485002A5D51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PODS_ROOT = "";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF100DB22461F485002A5D51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7362728D66E8976539638BBB /* Pods-PimpMyEvent.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PimpMyEvent/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eventbyme.PimpMyEvent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF100DB32461F485002A5D51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EF9B2DA29F4EE2CAF13E2B5 /* Pods-PimpMyEvent.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PimpMyEvent/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eventbyme.PimpMyEvent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FF100DB52461F485002A5D51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B670CE316AC8318CB55BF0DE /* Pods-PimpMyEventTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PimpMyEventTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eventbyme.PimpMyEventTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PimpMyEvent.app/PimpMyEvent";
+			};
+			name = Debug;
+		};
+		FF100DB62461F485002A5D51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB93518B205700836C9FCF14 /* Pods-PimpMyEventTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PimpMyEventTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eventbyme.PimpMyEventTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PimpMyEvent.app/PimpMyEvent";
+			};
+			name = Release;
+		};
+		FF100DB82461F485002A5D51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08774C767677EA0519918E8F /* Pods-PimpMyEvent-PimpMyEventUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PimpMyEventUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eventbyme.PimpMyEventUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PimpMyEvent;
+			};
+			name = Debug;
+		};
+		FF100DB92461F485002A5D51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9772610165833AC0F5FDE61D /* Pods-PimpMyEvent-PimpMyEventUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PimpMyEventUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eventbyme.PimpMyEventUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PimpMyEvent;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF100D822461F482002A5D51 /* Build configuration list for PBXProject "PimpMyEvent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF100DAF2461F485002A5D51 /* Debug */,
+				FF100DB02461F485002A5D51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF100DB12461F485002A5D51 /* Build configuration list for PBXNativeTarget "PimpMyEvent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF100DB22461F485002A5D51 /* Debug */,
+				FF100DB32461F485002A5D51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF100DB42461F485002A5D51 /* Build configuration list for PBXNativeTarget "PimpMyEventTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF100DB52461F485002A5D51 /* Debug */,
+				FF100DB62461F485002A5D51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF100DB72461F485002A5D51 /* Build configuration list for PBXNativeTarget "PimpMyEventUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF100DB82461F485002A5D51 /* Debug */,
+				FF100DB92461F485002A5D51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF100D7F2461F482002A5D51 /* Project object */;
+}
